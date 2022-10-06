@@ -16,12 +16,34 @@
         height"250" 
         alt="Professinal headshot of Michael Williams" </p>
        <h1> Contact Information</h1>
-      <a href="Contact Information.HTML"></a>
     <hr>
-    <h1> Interest</h1> 
+    <form>
+        <a href="Contact_me.HTML">Contact Me</a>
+        <h1> Contact Me</h1>
+        <label>Name:</label>
+        <input type="text" name="name">
+        <br>
+        <label>Email:</label>
+        <input type="text" name="email">
+        <br>
+        <label>Company:</label>
+        <input type="text" name="company">
+        <br>
+        <input type="submit"> 
+        <input type="reset">
+        <br>
+        </form>
+   action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+   method="post"
+  >
+  <input name="send-to" value="mwilliams@brooklynsteamcenter.org" hidden>
+       
+         <h1> Interest</h1> 
     <a href="Interest.HTMl"></a>
     <a href="https://www.brooklynsteamcenter.org"></a>
     <hr> 
+    <form>
+       
     <ul> 
         <li> href="https://www.BrooklynSteamCenter.org"
         </li>
