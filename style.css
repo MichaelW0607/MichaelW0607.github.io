@@ -26,6 +26,8 @@
          color:antiquewhite;
          padding:50px;
          display: inline-block;
+         position:sticky;
+         top:0;
  }
  #navbar > a :hover {
     background-color: aquamarine;
